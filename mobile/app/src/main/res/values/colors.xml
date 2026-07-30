@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Orbix Studio Palette -->
+    <color name="primary">#1A1A1A</color>
+    <color name="primary_dark">#000000</color>
+    <color name="primary_light">#333333</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#6C757D</color>
+    <color name="secondary_dark">#495057</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_page">#F8F9FA</color>
+    <color name="bg_page_alt">#F1F3F5</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="bg_card">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_main">#1A1A1A</color>
+    <color name="text_secondary">#6C757D</color>
+    <color name="text_light">#868E96</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <color name="input_bg">#F1F3F5</color>
+    <color name="input_border">#E9ECEF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="success_light">#D1FAE5</color>
+    <color name="error_text">#EF4444</color>
+    <color name="error_bg">#FEE2E2</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_light">#FEF3C7</color>
+    <color name="info">#3B82F6</color>
+    <color name="info_light">#DBEAFE</color>
+
+    <color name="divider">#E9ECEF</color>
+    <color name="overlay_bg">#80000000</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="bg_dark">#F8F9FA</color>
+
+    <color name="card_border">#E5E7EB</color>
+    <color name="badge_red">#EF4444</color>
+    <color name="chip_bg">#F1F3F5</color>
+    <color name="chip_selected_bg">#1A1A1A</color>
+    <color name="chip_text">#6C757D</color>
+    <color name="chip_selected_text">#FFFFFF</color>
+    <color name="price_color">#1A1A1A</color>
+    <color name="tab_inactive">#9CA3AF</color>
+    <color name="tab_active">#111827</color>
+    <color name="nav_active">#111827</color>
+    <color name="nav_inactive">#9CA3AF</color>
+    <color name="logout_bg">#FEE2E2</color>
+    <color name="logout_text">#EF4444</color>
+    <color name="menu_icon">#374151</color>
+    <color name="menu_text">#111827</color>
+    <color name="menu_divider">#F3F4F6</color>
+    <color name="field_bg">#F9FAFB</color>
+    <color name="avatar_border">#E5E7EB</color>
+    <color name="label">#6B7280</color>
+    <color name="value">#111827</color>
+    <color name="placeholder">#9CA3AF</color>
+    <color name="shadow_tint">#1A1A1A</color>
+    <color name="placeholder_bg">#F1F3F5</color>
+
+    <!-- CRUD Redesign Palette -->
+    <color name="crud_primary">#1E3A8A</color>
+    <color name="crud_accent">#3B82F6</color>
+    <color name="crud_bg">#F1F5F9</color>
+    <color name="crud_card_bg">#FFFFFF</color>
+    <color name="crud_text_main">#0F172A</color>
+    <color name="crud_text_secondary">#64748B</color>
+    <color name="crud_border">#CBD5E1</color>
+    <color name="crud_success">#10B981</color>
+    <color name="crud_error">#EF4444</color>
+    <color name="crud_price">#1E3A8A</color>
+    <color name="crud_chip_bg">#E2E8F0</color>
+    <color name="crud_chip_text">#475569</color>
+
+    <!-- Recovery / Password Reset Palette -->
+    <color name="recovery_primary">#2563EB</color>
+    <color name="recovery_primary_dark">#1D4ED8</color>
+    <color name="recovery_bg">#F8FAFC</color>
+    <color name="recovery_text_main">#0F172A</color>
+    <color name="recovery_text_secondary">#475569</color>
+    <color name="recovery_border">#CBD5E1</color>
+    <color name="recovery_success">#16A34A</color>
+    <color name="recovery_error">#DC2626</color>
+    <color name="recovery_disabled_bg">#E2E8F0</color>
+    <color name="recovery_disabled_text">#94A3B8</color>
+    <color name="recovery_icon_muted">#64748B</color>
+
+    <!-- Redesign Catalog / Orders -->
+    <color name="redesign_bg">#F5F5F7</color>
+    <color name="redesign_text_main">#1D1D1F</color>
+    <color name="redesign_text_sub">#86868B</color>
+    <color name="redesign_badge_green_bg">#22C55E</color>
+    <color name="redesign_badge_green_text">#15803D</color>
+    <color name="redesign_divider">#E5E5EA</color>
+    <color name="redesign_danger">#FF3B30</color>
+</resources>

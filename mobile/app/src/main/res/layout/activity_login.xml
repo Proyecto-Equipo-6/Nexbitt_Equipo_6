@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp">
+
+        <!-- Logo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Nexbit"
+            android:textColor="@color/text_main"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="40dp"
+            android:text="Accede a tu cuenta"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+        <!-- Email Field -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo electrónico"
+            android:textColor="@color/text_main"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_input_auth"
+            android:hint="ejemplo@correo.com"
+            android:textColorHint="#94A3B8"
+            android:textColor="@color/text_main"
+            android:textSize="14sp"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="14dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Password Field -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:textColor="@color/text_main"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_input_auth"
+            android:hint="••••••••"
+            android:textColorHint="#94A3B8"
+            android:textColor="@color/text_main"
+            android:textSize="14sp"
+            android:inputType="textPassword"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="14dp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Error message -->
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/error_text"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Forgot Password -->
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Olvidé mi contraseña"
+            android:textColor="@color/recovery_primary"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_btn_login_primary"
+            android:text="Iniciar Sesión"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_btn_login_outlined"
+            android:text="Crear Cuenta"
+            android:textColor="@color/text_main"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:stateListAnimator="@null" />
+
+    </LinearLayout>
+</ScrollView>

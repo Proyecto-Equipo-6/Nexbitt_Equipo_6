@@ -1,0 +1,46 @@
+/**
+ * @file reportesRoutes.js
+ * @description Rutas del módulo de reportes. Solo accesibles con token válido.
+ */
+import express from 'express';
+const router = express.Router();
+import { getVentas, getInventario, getSeguridad, getCarritos, getRepartidores, getVentasKpis, getInventarioKpis, getSeguridadKpis, getCarritosKpis, getRepartidoresKpis } from '../controllers/reportesController.js';
+import { verificarToken } from '../middleware/authMiddleware.js';
+
+router.get('/ventas', verificarToken,
+    /*  #swagger.tags = ['Reportes']
+        #swagger.summary = 'Reporte de ventas' */
+    getVentas
+);
+
+router.get('/inventario', verificarToken,
+    /*  #swagger.tags = ['Reportes']
+        #swagger.summary = 'Reporte de inventario' */
+    getInventario
+);
+
+router.get('/seguridad', verificarToken,
+    /*  #swagger.tags = ['Reportes']
+        #swagger.summary = 'Reporte de seguridad' */
+    getSeguridad
+);
+
+router.get('/carritos', verificarToken,
+    /*  #swagger.tags = ['Reportes']
+        #swagger.summary = 'Reporte de carritos activos' */
+    getCarritos
+);
+
+router.get('/repartidores', verificarToken,
+    /*  #swagger.tags = ['Reportes']
+        #swagger.summary = 'Reporte de repartidores' */
+    getRepartidores
+);
+
+router.get('/ventas/kpis', verificarToken, getVentasKpis);
+router.get('/inventario/kpis', verificarToken, getInventarioKpis);
+router.get('/seguridad/kpis', verificarToken, getSeguridadKpis);
+router.get('/carritos/kpis', verificarToken, getCarritosKpis);
+router.get('/repartidores/kpis', verificarToken, getRepartidoresKpis);
+
+export default router;
